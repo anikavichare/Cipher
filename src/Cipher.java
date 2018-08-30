@@ -7,7 +7,6 @@ public class Cipher {
 	private static final String SIMPLE_ALPHABET = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
 	private static final String DEFAULT_ALPHABET = ALPHABET;
 
-	//worked with Neha on rotation ciphers
 	
 	public static String rotationCipherEncrypt(String plaintext, int shiftAmount, String alphabet) {
 		
